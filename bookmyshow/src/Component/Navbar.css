@@ -1,0 +1,86 @@
+.head{
+    width: 100%;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+
+}
+
+.navtop{
+    min-height:76px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 14px 5%;
+}
+
+
+.navbarlogo{
+    color: #e31837;
+    font-size: 30px;
+    font-weight: 800;
+    text-decoration: none;
+    white-space: nowrap;
+    letter-spacing: -1px;
+
+
+}
+.navbarlogo span {
+    color: #333333
+}
+
+
+.navbarsearch{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 48%;
+    max-width: 650px;
+    padding: 11px 16px;
+    border: 1px solid #dddddd;
+    border-radius: 6px;
+    background: #ffffff;
+}
+
+.navbarsearch span{
+    font-size: 30px;
+    /* flex-shrink: 0; */
+    color: #777777;
+}
+
+.navbarsearch input{
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    background: transparent;
+}
+
+.navbaraction{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+
+}
+.locationbtn{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.loginbtn{
+    background: #e31837;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 9px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.loginbtn :hover{
+    background: #bd1230;
+}
